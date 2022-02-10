@@ -14,8 +14,11 @@ body{
 
 main{
     display: flex;
+    
+    flex-direction: column;
 
-    justify-content: center;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 hr{
@@ -31,6 +34,8 @@ hr{
     width: 870px;
 
     padding: 30px;
+    
+    margin-top: 21px;
 }
 
 
@@ -80,10 +85,8 @@ hr{
 
 
 
-
-
 /* ------------------------------------------------------------      
-            top blogss style 
+            top blogs style 
 ------------------------------------------------------------ */
 
 .blogs{
@@ -122,4 +125,31 @@ hr{
     font-size: 16px;
 
     color: #562EFF;
+}
+
+
+
+
+
+/* ------------------------------------------------------------      
+            Courses style 
+------------------------------------------------------------ */
+
+.course .course-banner img{
+    width: 224px;
+    height: 104px;
+}
+
+.course-info{
+    display: flex;
+}
+
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #ffc014;
+}
+.fa-star.empty{
+    color: #AEAEAE;;
 }
