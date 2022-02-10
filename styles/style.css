@@ -199,3 +199,55 @@ hr{
 .course-duration span{
     color:#FF4A60;
 }
+
+
+
+
+
+/* ------------------------------------------------------------      
+            Mobile Queries 
+------------------------------------------------------------ */
+
+/* Mobile Devices */
+
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+
+    .players , .blogs , .courses{
+        background-color: #ED6B4F;
+
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .player , .blog{
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+/* Mobile Devices */
+
+@media only screen and (min-width:688px) and (max-width:992px){
+    .container{
+        width: 100%;
+    }
+
+    .players , .courses{
+        background-color: yellow;
+
+        grid-template-columns: repeat(2,1fr);
+    }
+    .blogs{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .player{
+        /* flex-direction: column; */
+    }
+}
